@@ -92,7 +92,8 @@
 
 #content {
     padding-top:30px;
-    height:600px;
+    min-height:600px;
+    overflow: hidden;
     background-color:#F5F5FF;
 }
 #menu {
@@ -100,7 +101,9 @@
     background-color:yellow;
 }
 #maincontent {
+    max-width: 1350px;
     overflow:hidden;
+    margin: auto;
 }
 #main {
     height:570px;
@@ -174,6 +177,54 @@
     float:right;
     font-weight:700px;
 }
+.kommentaarium {
+    padding: 20px;
+}
+.kommentaar {
+    min-height: 80px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #EAEAFF;
+    overflow: hidden;
+
+}
+.profilepic {
+    border: 1px solid black;
+    height: 60px;
+    width: 60px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(http://www.scientology-cult.com/images/stories/250/anonymous_logo.jpg);
+}
+.name {
+    float: left;
+    margin: 5px 15px 10px;
+}
+.kommentaartext {
+    width: 90%;
+    min-height: 30px;
+    padding: 10px;
+    padding-bottom: 0px;
+    background-color: white;
+    float: right;
+    
+}
+.uudis {
+    padding: 20px;
+    background-color: #EAEAFF;
+}
+.pildilehitseja {
+    height:400px; 
+    background-image: url(http://images.anandtech.com/doci/6404/PR_ASUS_TAICHI_ab.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sisuala {
+    
+}
 #footer {
     height:70px;
     text-align:center;
@@ -185,4 +236,30 @@
     max-width:1300px;
     margin:auto;
     opacity:0.6;
+}
+.editcontent {
+    margin: 20px auto;
+    max-width: 800px;
+}
+.editcontent input[type=text], .editcontent select{
+    width: 100%;
+    height: 30px;
+    background-color: #EAEAFF;
+}
+.editcontent textarea {
+    width: 100%;
+    height: 300px;
+    background-color: #EAEAFF;
+}
+.editcontent input[type=file] {
+    display: inline;
+}
+.editcontent input[type=button] {
+    width: 33%;
+}
+.addfile {
+    padding:  auto;
+}
+#grupp {
+    
 }

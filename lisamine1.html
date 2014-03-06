@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Veebirakenduste Projekt</title>
+        <link href="style.css" rel='stylesheet' type='text/css'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link href="bootstrap-3.1.1-dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <script src="bootstrap-3.1.1-dist/js/bootstrap.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <script src="//tinymce.cachefly.net/4.0/tinymce.min.js"></script>
+        <script>
+            tinymce.init({selector:'textarea'});
+        </script>
+        
+    </head>
+    <body>
+        <div id="container">
+            <div id="content">
+                <div class="row">
+                    <div id="header">
+                        <div class="inner">
+                            <div id="logoplace">
+                    
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div id="maincontent">
+                        <div class="editcontent">
+                            <h3>LISA UUDIS</h3>
+                            <br>
+                            <h4>KATEGOORIA</h4>
+                            <select name="grupp" id="grupp">
+                                <option value="arvutid">ARVUTID</option>
+                                <option value="kodutehnika">KODUTEHNIKA</option>
+                                <option value="videotehnika">VIDEOTEHNIKA</option>
+                                <option value="telefonid">TELEFONID</option>
+                                <option value="avastused">AVASTUSED</option>
+                                <option value="varia">VARIA</option>
+                            </select>
+                            <br>
+                            <h4>SUURUS</h4>
+                            <input type="radio" name="suurus" value="suur">Suur<br>
+                            <input type="radio" name="suurus" value="vaike">Väike<br>
+                            <h4>PEALKIRI</h4>
+                            <input type="text" name="pealkiri" id="pealkiri">
+                            <h4>SISU</h4>
+                            <textarea name="sisu" id="sisu" cols="30" rows="10">
+
+                            </textarea>
+                            <h4>PILDID</h4>
+                            <div class="addfile">
+                                <form action="upload_file.php" method="post" enctype="multipart/form-data">
+                                    <label for="file">Faili nimi:</label>
+                                    <input type="file" name="file" id="file">
+                                    <input type="submit" name="submit" value="Lae ülesse">
+                                </form>
+                            </div>
+                            <br>
+                            <input type="button" name="eelvaade" value="Eelvaade">
+                            <input type="button" name="salvesta" value="Salvesta">
+                            <input type="button" name="laeules" value="Lae ülesse">
+                        </div>
+                </div>
+                <div id="footer">
+                </div>
+            </div>    
+        </div>
+    </body>
+</html>
