@@ -175,7 +175,7 @@
     margin-top: 15px;
     width:70%;
     float:right;
-    font-weight:normal;
+    font-weight:700px;
 }
 .kommentaarium {
     padding: 20px;
@@ -258,7 +258,7 @@
     width: 33%;
 }
 .addfile {
-    padding:  50px 50px;;
+    padding:  auto;
 }
 #grupp {
     

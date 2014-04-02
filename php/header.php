@@ -1,7 +1,4 @@
 <?php
-include("functions.php");
-connect();
-?>
 <html>
 <head>
     <title>Itioot</title>
