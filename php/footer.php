@@ -1,3 +1,3 @@
-    <div id="footer"><center>Copyright &copy; 2014 Itioot</center></div>
+    <div id="footer"></div>
 </body>
 </html>
