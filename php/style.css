@@ -228,7 +228,7 @@
 #footer {
     height:70px;
     text-align:center;
-    background-image:url(Logo.png);
+    background-image:url(../Logo.png);
     background-size:contain;
     background-repeat:no-repeat;
     background-position:center;
