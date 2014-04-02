@@ -1,4 +1,3 @@
-<?php ?>
 <html>
     <head>
         <title>Itioot</title>
