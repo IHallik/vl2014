@@ -15,7 +15,7 @@
     width:60%;
     float:left;
     height:100px;
-    background-image:url("Logo.png");
+    background-image:url("../Logo.png");
     background-repeat:no-repeat;
     background-size:contain;
 }
