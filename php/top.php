@@ -1,10 +1,8 @@
 <div id="header">
-    <div class="inner">
-        <div id="logoplace">
-
-        </div>
-        <div id="login">
-            
+    <div id="logo"></div>
+    <div id="login">
+        <div id="loginbutton">
+            LOGI SISSE
         </div>
     </div>
 </div>
